@@ -10,7 +10,9 @@ Generates CRC lookup tables for common CRC algorithms for 8, 16, 32 and 64 bit C
 **Currently supports**
 
 crc8-ccitt
+
 crc8-rohc
+
 crc8-cdma2000
 crc8-wcdma
 crc8-ebu
