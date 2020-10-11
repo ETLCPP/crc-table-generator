@@ -9,8 +9,8 @@ Generates CRC lookup tables for common CRC algorithms for 8, 16, 32 and 64 bit C
 
 **Example**
 
-Generate the lookup table for CRC8 CCITT
-crc-table crc8-ccitt
+Generate the lookup table for CRC8 CCITT<br>
+`crc-table crc8-ccitt`
 
 **Currently generates tables for:-**
 
