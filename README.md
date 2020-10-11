@@ -7,7 +7,7 @@ CRC Table Generator
 
 Generates CRC lookup tables for common CRC algorithms for 8, 16, 32 and 64 bit CRCs.
 
-**Currently supports**
+**Currently generates tables for:-**
 
 crc8-ccitt<br>
 crc8-rohc<br>
