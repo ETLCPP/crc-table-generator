@@ -128,7 +128,7 @@ void Initialise()
   crcTypes["crc16-dect-x"]    = { uint16_t(0x0589), false, false };
   crcTypes["crc16-en-13757"]  = { uint16_t(0x3D65), false, false };
   crcTypes["crc16-dnp"]       = { uint16_t(0x3D65), true,  true };
-  crcTypes["crc16-cdma2000"]  = { uint16_t(0xC857), false, false };
+  crcTypes["crc16-cdma2000"]  = { uint16_t(0xC867), false, false };
   crcTypes["crc16-teledisk"]  = { uint16_t(0xA097), false, false };
 
   crcTypes["crc32-bzip2"]  = { uint32_t(0x04C11DB7), false, false };
