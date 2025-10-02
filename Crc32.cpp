@@ -28,7 +28,7 @@ void Crc32::GenerateTable(uint32_t polynomial, bool reflectIn, bool reflectOut)
 {
   for (int byte = 0; byte < 256; ++byte)
   {
-    uint32_t crc = (reflectIn ? (Reverse(uint32_t(byte)) >> 24) : byte);
+    uint32_t crc = (reflectIn ? (Reverse(uint32_t(byte)) << 24) : byte);
 
     for (int bit = 32; bit > 0; --bit)
     {

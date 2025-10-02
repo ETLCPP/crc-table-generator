@@ -2,3 +2,6 @@
 .vs/crc-table/v17
 crc-table/x64
 x64/Debug
+.vs/crc-table/copilot-chat
+.vs/crc-table/CopilotIndices
+crc-table.vcxproj.user
